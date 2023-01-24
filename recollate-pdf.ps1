@@ -14,16 +14,9 @@
   Source PDF to re-collate to a printable format.
 
   .PARAMETER DestPDF
-  Specifies the name and path for the CSV-based output file. By default,
-  MonthlyUpdates.ps1 generates a name from the date and time it runs, and
-  saves the output in the local directory.
+  Specifies the name and path for the generated foldable PDF.
   
-  .PARAMETER DestPDF
-  Specifies the name and path for the CSV-based output file. By default,
-  MonthlyUpdates.ps1 generates a name from the date and time it runs, and
-  saves the output in the local directory.
-  
-  .PARAMETER $ThreadCount
+  .PARAMETER ThreadCount
   Number of threads to use when processing pages.  -1 (Default) is the CPU core count.
 
   .INPUTS
